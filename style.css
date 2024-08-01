@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #353839;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: gold;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h2 ,h3{
+    text-align: left;
+    margin-left: 60px;
+    color: wheat;
+}
+
+h1 {
+    color: wheat;
+}
+
+.intro a {
+  text-decoration: none;
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10%;
+  list-style: none;
+  align-items: left;
+}
+
+.intro a:hover{
+    text-decoration: none;
+    background-color: gold;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10%;
+    list-style: none;
+    align-items: left;
+  }
+
+  .home {
+    background-color: #353839;
+  }
+
+  .me {
+    width: 350px;
+    display: block;
+    float: right;
+  }
+
+  .projects {
+    width: 700px;
+  }
+
+    .hehe {
+    text-align: left;
+    color: whitesmoke;
+  }
+
+  p {
+    color: white;
+  }
+
+  .ExampleImage {
+    width: 250px;
+  }
+
+  .sp {
+    position: relative;
+    display: block;
+    padding: 20px;
+    
+  }
